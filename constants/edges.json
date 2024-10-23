@@ -1,0 +1,7 @@
+[
+    ["DSM", "ORD"], ["ORD", "BGI"], ["BGI", "LGA"], ["JFK", "LGA"],
+    ["JFK", "HND"], ["HND", "ICN"], ["JFK", "ICN"], ["TLV", "DEL"],
+    ["DEL", "DOH"], ["DEL", "CDG"], ["CDG", "BUD"], ["CDG", "SIN"],
+    ["SIN", "JFK"], ["SFO", "SAN"], ["SAN", "EYW"], ["EYW", "LHR"],
+    ["LHR", "SFO"], ["SFO", "DSM"]
+]
