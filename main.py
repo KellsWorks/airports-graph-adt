@@ -1,7 +1,6 @@
 import json
 from graph import Graph
-from collections import defaultdict, deque
-from typing import List, Set
+from typing import List
 
 class AirportsGraphADT:
     def __init__(self):
@@ -29,3 +28,6 @@ class AirportsGraphADT:
             
 if __name__ == "__main__":
     airports_graph_adt = AirportsGraphADT()
+    start_airport = str(input("Enter the starting airport: "))
+    result = airports_graph_adt.graph.calculate_min_additional_routes(start_airport)
+    print(f"Minimum number of additional routes needed from {start_airport}: {result}")

@@ -107,7 +107,7 @@ class Graph:
     def calculate_min_additional_routes(self, start: str) -> int:
         reachable = self.find_reachable_nodes(start)
         sccs = self.find_strongly_connected_components()
-        min_routes = 0,
+        min_routes = 0
         for scc in sccs:
             if start in scc or any(node in reachable for node in scc):
                 continue
